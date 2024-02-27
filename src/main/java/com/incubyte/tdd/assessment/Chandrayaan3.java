@@ -123,4 +123,8 @@ public class Chandrayaan3 {
 		z++;
 	}
 
+	public void turnDown() {
+		z--;
+	}
+
 }
