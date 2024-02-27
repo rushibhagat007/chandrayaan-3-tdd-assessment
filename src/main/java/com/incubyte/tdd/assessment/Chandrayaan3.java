@@ -68,4 +68,21 @@ public class Chandrayaan3 {
 		}
 	}
 
+	public void moveBackward() {
+		switch (direction) {
+		case 'N':
+			y--;
+			break;
+		case 'S':
+			y++;
+			break;
+		case 'E':
+			x--;
+			break;
+		case 'W':
+			x++;
+			break;
+		}
+	}
+
 }
