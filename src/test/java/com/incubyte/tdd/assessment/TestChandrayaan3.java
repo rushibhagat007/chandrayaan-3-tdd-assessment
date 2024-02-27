@@ -47,5 +47,12 @@ public class TestChandrayaan3 {
 		c.turnUp();
 		assertEquals(1, c.getZ());
 	}
+	
+	@Test
+	public void testTurnDown() {
+		Chandrayaan3 c = new Chandrayaan3(0, 0, 0, 'N');
+		c.turnDown();
+		assertEquals(-1, c.getZ());
+	}
 
 }
