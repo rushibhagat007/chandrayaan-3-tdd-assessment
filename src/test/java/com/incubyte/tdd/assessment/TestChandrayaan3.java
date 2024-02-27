@@ -1,5 +1,7 @@
 package com.incubyte.tdd.assessment;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
 public class TestChandrayaan3 {
