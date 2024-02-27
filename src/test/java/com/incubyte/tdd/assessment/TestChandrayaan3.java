@@ -26,5 +26,12 @@ public class TestChandrayaan3 {
 		c.moveBackward();
 		assertEquals("(0, -1, 0)", c.getPosition());
 	}
+	
+	@Test
+	public void testTurnLeft() {
+		Chandrayaan3 c = new Chandrayaan3(0, 0, 0, 'N');
+		c.turnLeft();
+		assertEquals('W', c.getDirection());
+	}
 
 }
